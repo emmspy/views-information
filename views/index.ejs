@@ -1,6 +1,13 @@
 <%- include('template/head', {tituloWeb:'Pagina de inicio'}) %>
 <body>
-    <h1>Utilizando plantillas ejs</h1>
-    <h2><%= titulo %></h2>
+    <main>
+        <div>
+            <h1><%= titulo %></h1>
+            <p>Usa las siguientes rutas para ver las demas paginas: </p>
+            <a href="./about">Sobre mi</a>
+            <a href="./contact">contacto</a>
+            <a href="./upload">Subir un archivo</a>
+        </div>
+    </main>
 </body>
 </html>
